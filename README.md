@@ -29,7 +29,7 @@ ___
 python3 projeto1.py
 ```
 
-### Observação
+### Observação 1
 Se você tiver problemas na hora de instalar as bibliotecas porque seu Python está configurado para ser gerido pelo sistema operacional, recomendo a criação de um ambiente virtual com *venv*
 ```bash
 sudo apt install python3.12-venv
@@ -51,6 +51,9 @@ Quando terminar não esqueça de fechar o ambiente virtual que foi ativado anter
 ```bash
 deactivate
 ```
+### Observação 2
+Caso você tenha feito pelo método de ambiente virtual, o comando "plt.show()" não irá funcionar na hora de criar a plotagem do Grafo.
+- Com isso em mente o programa irá criar/atualizar o arquivo "DolphinGraph.png", agora é so abrir a imagem e vizualizar o Grafo.
 
 
 
